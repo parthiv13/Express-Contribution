@@ -126,7 +126,7 @@ node server.js
 
 this will create a local server.
 Now open [http://localhost:3000/](http://localhost:3000/) in your browser.
-To see your own route at endpoint to url, which should looks like this:
+To see your own route add endpoint to url, which should looks like this:
 
 ```
 http://localhost:3000/Your_GitHub_Name
