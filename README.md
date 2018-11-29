@@ -4,8 +4,8 @@
 
 # First Contributions into Node Express Server App
 
-    So let's start your journey! Journey into Node.js world. In here you will make Your first contribution into open source project!
-    Here you will learn how to create route in Node Express server.
+So let's start your journey! Journey into Node.js world. In here you will make Your first contribution into open source project!
+Here you will learn how to create route in Node Express server.
 
 - What is Node.js [About Node.js](https://nodejs.org/en/about/)
 - What is Express.js [About Express.js](https://expressjs.com/)
