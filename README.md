@@ -12,8 +12,13 @@ Here you will learn how to create route in Node Express server.
 
 ## Requirements
 
-To start with Node.js you have to install it on Your machine. Choose the LTS - Long Time Support - version of installer [get Node here](https://nodejs.org/en/)
-To make your first contribution you must have git installed [get git here](https://git-scm.com/downloads)
+To start with Node.js you have to install it on Your machine. Choose the LTS - Long Time Support - version of installer
+
+- [get Node here](https://nodejs.org/en/)
+
+To make your first contribution you must have git installed
+
+- [get git here](https://git-scm.com/downloads)
 
 ## Fork
 
@@ -28,7 +33,7 @@ After that, open a terminal and run this command:
 git clone "copied_url"
 ```
 
-"copied_url" is a url that you copied from your forked repository
+`copied_url` is a url that you copied from your forked repository
 
 ## Create new branch
 
@@ -44,7 +49,7 @@ Next, to create a new branch run this command in your terminal:
 git checkout -b <new-branch-name>
 ```
 
-where "new-branch-name" can be your GitHub name, for example:
+where `new-branch-name` can be your GitHub name, for example:
 
 ```
 git checkout -b MarekDzw
@@ -68,52 +73,52 @@ npm install
 
 Wait for installation to complete.
 
-Now open your code editor and go to the "server" folder.
-Inside code editor open "app.js" file.
+Now open your code editor and go to the `server` folder.
+Inside code editor open `app.js` file.
 To create a new route do the following steps:
 
-- Copy this line and paste it below "Add route require below" commented line:
+- Copy this line and paste it below `Add route require below` commented line:
 
 ```
 let Your_GitHub_Name = require('./routes/Your_GitHub_Name');
 ```
 
-where "Your_GitHub_Name" is your GitHub profile name for ex. MarekDzw
+where `Your_GitHub_Name` is your GitHub profile name for ex. MarekDzw
 
-- Next step is to add the route. Copy this line and paste it below "Add route below" commented line:
+- Next step is to add the route. Copy this line and paste it below `Add route below` commented line:
 
 ```
 app.get('/Your_GitHub_Name', Your_GitHub_Name.profile);
 ```
 
-where "Your_GitHub_Name" is your GitHub profile name for ex. MarekDzw
+where `Your_GitHub_Name` is your GitHub profile name for ex. `MarekDzw`
 
 Save the file!
 
-Now, in your code editor, open "route-template.js" file and copy whole code.
+Now, in your code editor, open `route-template.js` file and copy whole code.
 Next step is to create route file.
-To do that open "routes" folder and add new ".js" file.
+To do that open "routes" folder and add new `.js` file.
 Here is an exapmle:
 
 ```
 Your_GitHub_Name.js
 ```
 
-where "Your_GitHub_Name" is your GitHub profile name for ex. MarekDzw
-Then open this file that you just created and paste the code you copied from "route-template.js"
+where `Your_GitHub_Name` is your GitHub profile name for ex. `MarekDzw`
+Then open this file that you just created and paste the code you copied from `route-template.js`
 
-Now, inside "Your_GitHub_Name.js", change the following line:
+Now, inside `Your_GitHub_Name.js`, change the following line:
 
 ```
 res.send('Your_GitHub_Name Your_GitHub_Link');
 ```
 
-where "Your_GitHub_Name" is your GitHub profile name and "Your_GitHub_Link" for the link to your GitHub profile/repository
+where `Your_GitHub_Name` is your GitHub profile name and `Your_GitHub_Link` for the link to your GitHub profile/repository
 Then just save!
 
 ## See your new route!
 
-To see your newly created route in terminal (inside "/server" folder) run this command:
+To see your newly created route in terminal (inside `/server` folder) run this command:
 
 ```
 node server.js
@@ -127,7 +132,7 @@ To see your own route at endpoint to url, which should looks like this:
 http://localhost:3000/Your_GitHub_Name
 ```
 
-where "Your_GitHub_Name" is your GitHub profile name.
+where `Your_GitHub_Name` is your GitHub profile name.
 Hit Enter! Now server will go to your route! You should see your linked GitHub name!
 
 ## Push changes to GitHub
@@ -138,11 +143,11 @@ Push your changes using the command `git push`:
 git push origin <new-branch-name>
 ```
 
-replace "new-branch-name" with the name of branch you created earlier.
+replace `new-branch-name` with the name of branch you created earlier.
 
 ## Submit your changes
 
-If you go to your repository on GitHub, you'll see a "Compare & pull request" button. Click on that button. Next hit "Create pull request".
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button. Next hit `Create pull request`.
 Now just wait for merge, which I will do, to merge all your changes into the master branch of this project.
 
 ## Learn Node:
