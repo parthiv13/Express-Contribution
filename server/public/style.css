@@ -2,7 +2,32 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #303f9f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
+  width: 500px;
+  margin: auto;
+}
+h1,
+h2,
+p {
   text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* single route style */
+.link-to-repo {
+  display: flex;
+  margin-top: 20%;
+  justify-content: center;
+  align-content: center;
+  font-size: 50px;
 }
