@@ -40,7 +40,7 @@ git clone "copied_url"
 At first you have to change repository directory on your machine:
 
 ```
-cd node-express-contribution
+cd express-contribution
 ```
 
 Next, to create a new branch run this command in your terminal:
