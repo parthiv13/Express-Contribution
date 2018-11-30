@@ -8,6 +8,7 @@ app.use(express.static('public'));
 //Add route require below
 let MarekDzw = require('./routes/MarekDzw');
 const Deeadline = require('./routes/Deeadline');
+let folxu = require('./routes/folxu');
 
 // Copy the commented line below and paste it under "Add your route below" and uncomment it!
 //app.get('/Your_GitHub_Name', Your_GitHub_Name.profile);
@@ -15,5 +16,6 @@ const Deeadline = require('./routes/Deeadline');
 // Add your route below
 app.get('/MarekDzw', MarekDzw.profile);
 app.get('/Deeadline', Deeadline.profile);
+app.get('/folxu', folxu.profile);
 
 module.exports = app;
